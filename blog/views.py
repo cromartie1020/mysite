@@ -115,6 +115,9 @@ def post_search(request):
     }
     return render(request,'blog/search.html', context)
 
+# 
+def post_edit(request):
+    pass
 
 
 
